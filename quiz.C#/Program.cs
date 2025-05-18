@@ -18,7 +18,7 @@ class Program
         for (int i = 0; i < questions.Length; i++)
         {
             Console.WriteLine(questions[i]);
-            Console.Write("Cavabınız: ");
+            Console.Write("Cavabiniz: ");
             string input = Console.ReadLine().ToUpper();
 
             if (input.Length > 0 && input[0] == correctAnswers[i])
